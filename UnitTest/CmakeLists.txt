@@ -1,0 +1,9 @@
+
+
+#ÉèÖÃÄ£¿é¼¯
+set (unittestset
+    "UnitTest.cpp"
+)
+
+add_executable(unittest ${unittestset})
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/UnitTest/DllOut)
